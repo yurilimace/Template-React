@@ -5,9 +5,18 @@ export default [
   {
     _tag: 'CSidebarNavItem',
     name: 'CSP Logo',
-    to: '/dashboard',
     icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+    className:"teste"
   },
+
+  {
+    _tag: 'CSidebarNavItem',
+    name: 'Teste',
+    to: '/teste',
+    icon: <CIcon name="cil-speedometer" customClasses="c-sidebar-nav-icon"/>,
+   
+  },
+
 
   {
     _tag: 'CSidebarNavTitle',
